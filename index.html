@@ -10,68 +10,61 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #f5efe6 0%, #e8d5c4 50%, #d4a574 100%);
+            background: linear-gradient(135deg, #d1dc91 0%, #ee7656 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
         }
-
         .container {
             max-width: 500px;
             width: 100%;
             text-align: center;
         }
-
         .logo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            border-radius: 15px;
             margin: 0 auto 20px;
             overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 8px 25px rgba(107, 68, 35, 0.3);
-            border: 4px solid #fff;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            border: 4px solid #000000;
+            background: #fff;
         }
-
         .logo img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
-
         h1 {
-            color: #3d2817;
+            color: #000000;
             font-size: 1.8rem;
             margin-bottom: 5px;
         }
-
         .subtitle {
-            color: #6b4423;
+            color: #000000;
             font-size: 1rem;
             margin-bottom: 35px;
             font-style: italic;
         }
-
         .links {
             display: flex;
             flex-direction: column;
             gap: 15px;
         }
-
         .link-card {
             background: #fff;
             border: 2px solid transparent;
             border-radius: 15px;
             padding: 20px 25px;
             text-decoration: none;
-            color: #3d2817;
+            color: #000000;
             font-size: 1.05rem;
             font-weight: 600;
             display: flex;
@@ -79,59 +72,54 @@
             justify-content: center;
             gap: 10px;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(107, 68, 35, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
-
         .link-card:hover {
             transform: translateY(-3px);
-            border-color: #8b6914;
-            box-shadow: 0 8px 25px rgba(107, 68, 35, 0.2);
-            background: #fdf9f3;
+            border-color: #000000;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            background: #d1dc91;
         }
-
         .link-card.instagram {
-            background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            background: #000000;
             color: #fff;
         }
-
         .link-card.instagram:hover {
-            background: linear-gradient(135deg, #d4742b, #d4563c, #c4212f, #b42156, #a41578);
+            background: #ee7656;
+            color: #000000;
+            border-color: #000000;
         }
-
         .link-card.ebook {
-            background: linear-gradient(135deg, #2d6a4f, #40916c);
-            color: #fff;
+            background: #ee7656;
+            color: #000000;
         }
-
         .link-card.ebook:hover {
-            background: linear-gradient(135deg, #1b503a, #2d6a4f);
-        }
-
-        .link-card.whatsapp {
-            background: linear-gradient(135deg, #25D366, #128C7E);
+            background: #000000;
             color: #fff;
+            border-color: #ee7656;
         }
-
+        .link-card.whatsapp {
+            background: #d1dc91;
+            color: #000000;
+        }
         .link-card.whatsapp:hover {
-            background: linear-gradient(135deg, #1da851, #0e7464);
+            background: #000000;
+            color: #fff;
+            border-color: #d1dc91;
         }
-
         .link-icon {
             font-size: 1.3rem;
         }
-
         .footer {
             margin-top: 35px;
-            color: #6b4423;
+            color: #000000;
             font-size: 0.85rem;
         }
-
         .footer a {
-            color: #6b4423;
+            color: #000000;
             text-decoration: none;
             font-weight: 600;
         }
-
         .footer a:hover {
             text-decoration: underline;
         }
@@ -144,33 +132,28 @@
         </div>
         <h1>Partum Grãos</h1>
         <p class="subtitle">Castanhas, nozes, amêndoas, pistache e suplementos</p>
-
         <div class="links">
             <!-- INSTAGRAM -->
             <a href="https://instagram.com/partumgraos" class="link-card instagram" target="_blank">
                 <span class="link-icon">📸</span>
                 Siga no Instagram: @partumgraos
             </a>
-
             <!-- E-BOOK 1 -->
             <a href="https://pay.hotmart.com/P106803092J" class="link-card ebook" target="_blank">
                 <span class="link-icon">📚</span>
                 E-book: Decodificando o Rótulo
             </a>
-
             <!-- E-BOOK 2 -->
             <a href="https://pay.hotmart.com/J89102689E" class="link-card ebook" target="_blank">
                 <span class="link-icon">📖</span>
                 E-book: 71 Receitas com Grãos
             </a>
-
             <!-- WHATSAPP -->
             <a href="http://wa.me/5586999959419" class="link-card whatsapp" target="_blank">
                 <span class="link-icon">💬</span>
                 Falar no WhatsApp
             </a>
         </div>
-
         <div class="footer">
             <p>© 2025 Partum Grãos — Teresina, Piauí 🌰</p>
         </div>
